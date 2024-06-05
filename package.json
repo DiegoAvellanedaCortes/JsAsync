@@ -1,0 +1,17 @@
+{
+  "name": "curso_jsasincrono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "callback": "node src/callback/challenge.js"
+  },
+  "author": "Diego Avellaneda daacdiego2015@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "type":"module"
+}
