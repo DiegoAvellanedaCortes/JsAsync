@@ -16,7 +16,7 @@ const anotherFuntion= async (urlApi) => { //Forma 2 de usar Async
         const productWhereId= await fetchData(`${urlApi}/products/${products[0].id}`)
         const category= await fetchData(`${urlApi}/categories/${productWhereId.category.id}`)
 
-        console.log(products)
+        console.log(products[0])
         console.log(productWhereId.title)
         console.log(category.name)
     }catch (error){
